@@ -1,7 +1,27 @@
 aid: leta
 name: Leta
-description: Leta is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Leta is a pan-African logistics technology company founded in 2022 and
+  headquartered in Westlands, Nairobi, Kenya, with operations across Kenya, Nigeria
+  and South Africa. Leta builds an AI-driven delivery management platform that helps
+  businesses move goods cheaper and faster while minimising climate impact: route optimization,
+  automated dispatch and broadcast, live GPS track-and-trace, payment on delivery,
+  fleet management, and delivery analytics. The platform is delivered as logistics
+  SaaS plus on-demand and dedicated rider services, including an M-PESA business mini-app,
+  and serves e-commerce, third-party logistics and courier, food and beverage, retail
+  and consumer goods, and pharmacy and healthcare delivery operators. Leta is backed
+  by Speedinvest.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://leta.ai/wp-content/uploads/2025/07/Leta-logo-scaled.png
 url: https://raw.githubusercontent.com/api-evangelist/leta/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,71 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: 'private: api.leta.ai is a live Django REST Framework API whose /docs/,
+  /redoc/, /swagger/ and /api/v1/ endpoints all return 401 (authentication required);
+  no public OpenAPI, developer portal, or API documentation is published as of 2026-07-19.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Logistics
+- Delivery
+- Last Mile Delivery
+- Supply Chain
+- Route Optimization
+- Fleet Management
+- Transportation
+- Artificial Intelligence
+- Africa
+- SaaS
 apis: []
+common:
+- type: Website
+  url: https://leta.ai/
+- type: Company
+  url: https://leta.ai/company/
+- type: Products
+  url: https://leta.ai/products/
+- type: Solutions
+  url: https://leta.ai/solutions/
+- type: Industries
+  url: https://leta.ai/industries/
+- type: Blog
+  url: https://leta.ai/blog/
+- type: BlogRSS
+  url: https://leta.ai/feed/
+- type: Support
+  url: https://leta.ai/contact/
+- type: Login
+  url: https://cloud.leta.ai/auth/login
+- type: Demo
+  url: https://leta.ai/book-a-demo/
+- type: TermsOfService
+  url: https://leta.ai/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://leta.ai/privacy-policy/
+- type: Careers
+  url: https://leta.ai/careers/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/leta-ai/
+- type: Facebook
+  url: https://www.facebook.com/Leta.Africa/
+- type: Instagram
+  url: https://www.instagram.com/leta.africa/
+- type: Email
+  url: mailto:hello@leta.ai
+- type: LLMsTxt
+  url: llms/leta-llms.txt
+- type: DomainSecurity
+  url: security/leta-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
