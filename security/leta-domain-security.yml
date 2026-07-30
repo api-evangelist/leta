@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: leta.ai
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 29 05:15:44 2026 GMT
+  hsts: false
+- host: api.leta.ai
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 14 14:20:36 2026 GMT
+  hsts: false
+- host: cloud.leta.ai
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 22 14:06:24 2026 GMT
+  hsts: false
+domains:
+- domain: leta.ai
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
