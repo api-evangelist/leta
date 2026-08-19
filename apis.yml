@@ -32,7 +32,7 @@ x-tier-reason: portfolio-lead
 x-api-surface: 'private: api.leta.ai is a live Django REST Framework API whose /docs/,
   /redoc/, /swagger/ and /api/v1/ endpoints all return 401 (authentication required);
   no public OpenAPI, developer portal, or API documentation is published as of 2026-07-19.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
