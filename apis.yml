@@ -10,6 +10,17 @@ description: 'Leta is a pan-African logistics technology company founded in 2022
   and serves e-commerce, third-party logistics and courier, food and beverage, retail
   and consumer goods, and pharmacy and healthcare delivery operators. Leta is backed
   by Speedinvest.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
